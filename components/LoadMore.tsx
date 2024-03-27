@@ -16,7 +16,7 @@ function LoadMore() {
 
   useEffect(() => {
     if (inView) {
-      // alert("kéo quá rồi cái thằng lồn ! coi phim sex ít thôi"!);
+      alert("đừng kéo nữa, hết phim rồi"!);
 
       fetchAnime(page).then((res) => {
         setData([...data, ...res]);
